@@ -1,4 +1,7 @@
-package erc.com.biblio.model;
+package com.biblio.model;
+import com.biblio.util.ValidationUtil;
+import static com.biblio.util.ValidationUtil.requireNonEmpty;
+import java.util.Objects;
 
 public class Isbn {
     private final String value;
